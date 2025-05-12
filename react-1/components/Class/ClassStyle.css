@@ -1,0 +1,44 @@
+.counter-container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+
+}
+
+.counter-display {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.counter-buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter-buttons button:nth-child(2) {
+  background-color: #4caf50;
+  color: white;
+}
+
+.counter-buttons button:nth-child(1) {
+  background-color: #f44336;
+  color: white;
+}
+
+.counter-buttons button:nth-child(3) {
+  background-color: #2196f3;
+  color: white;
+}
+
+.counter-buttons button:hover {
+  opacity: 0.9;
+}
